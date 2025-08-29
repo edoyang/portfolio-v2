@@ -13,7 +13,9 @@ const Hero = () => {
       </p>
 
       <div className="extras">
-        <button className="btn-primary">Download My CV</button>
+        <a href="/Resume.pdf" target="_blank" download="Resume.pdf">
+          <button className="btn-primary">Download My CV</button>
+        </a>
       </div>
 
       <div className="infos">
