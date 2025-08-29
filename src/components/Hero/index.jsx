@@ -13,7 +13,7 @@ const Hero = () => {
       </p>
 
       <div className="extras">
-        <a href="/Resume.pdf" target="_blank" download="Resume.pdf">
+        <a href="/resume.pdf" target="_blank" download="Resume.pdf">
           <button className="btn-primary">Download My CV</button>
         </a>
       </div>
