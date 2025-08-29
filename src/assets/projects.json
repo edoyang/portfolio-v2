@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "title": "Digital Agency",
+    "description": "Digital Agency is the first landing page I created, built with HTML, CSS, and some PHP for handling form submissions. The project introduced me to responsive layouts, semantic structure, and basic interactivity. While simple, it marked the beginning of my journey in web development and taught me how to turn ideas into functional websites.",
+    "category": "Landing Page",
+    "technologies": ["HTML", "CSS"],
+    "links": {
+      "demo": "https://edoyang.github.io/digital-agency/",
+      "repository": "https://edoyang.github.io/digital-agency/"
+    }
+  },
+  {
+    "id": 2,
+    "title": "ABC Property",
+    "description": "ABC Property began as a static HTML/CSS project and later became my first MERN stack application. Rebuilding it in React and Node.js introduced me to component-based design, dynamic routing, and database integration. The project showcases property listings and reflects my transition from static websites to full-stack development.",
+    "category": "Property Website",
+    "technologies": ["React", "Express", "MongoDB"],
+    "links": {
+      "demo": "https://edoyang.github.io/abcproperty-react/",
+      "repository": "https://github.com/edoyang/abcproperty-react"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Furniro",
+    "description": "Furniro is an e-commerce platform inspired by real-world needs for selling refurbished furniture. Built with the MERN stack, it includes product browsing, filtering, cart, and checkout features. A focus on responsive styling and smooth UI design helped me strengthen my frontend skills while managing complex data flows from the backend.",
+    "category": "E-Commerce",
+    "technologies": ["React", "Express", "MongoDB"],
+    "links": {
+      "demo": "https://furniro-client.vercel.app/",
+      "repository": "https://github.com/edoyang/furniro"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Meraki",
+    "description": "Meraki is an e-commerce website inspired by a local florist in Indonesia that originally sold through Instagram. It was my first secure MERN project where I implemented an API Gateway for structured communication between services. The site features responsive design, authentication, and order management, making it one of my key learning milestones in full-stack development.",
+    "category": "E-Commerce",
+    "technologies": ["React", "Express", "MongoDB"],
+    "links": {
+      "demo": "https://edoyang.github.io/florist/",
+      "repository": "https://github.com/edoyang/florist"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Zebb",
+    "description": "Zebb is a landing page created from a Figma design concept, focusing on a service-selling layout. Built only with HTML and CSS, it emphasizes responsive design, typography, and visual hierarchy. This project strengthened my frontend fundamentals and my ability to turn mockups into functional, polished code.",
+    "category": "Landing Page",
+    "technologies": ["HTML", "CSS"],
+    "links": {
+      "demo": "https://github.com/edoyang/ICTPRG535/",
+      "repository": "https://edoyang.github.io/ICTPRG535/"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Filem",
+    "description": "Filem is a React-based movie guide web application inspired by Netflix’s design, built to provide users with real-time movie information using the TMDb API. It features dynamic movie pages with titles, genres, cast, reviews, and region-specific streaming availability, offering a rich browsing experience. The platform integrates Firebase for live chat, allowing users to discuss films in real time, while MongoDB stores preferences, reviews, and watchlists for a personalized experience. With its modern responsive design and interactive sliders, Filem combines functionality and style, making it an engaging platform for movie enthusiasts.",
+    "category": "SaaS",
+    "technologies": ["React", "Firebase", "MongoDB", "TMDb API"],
+    "links": {
+      "demo": "https://filem.vercel.app/",
+      "repository": "https://github.com/edoyang/filem"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Freshcart",
+    "description": "Freshcart is a supermarket e-commerce application built with the MERN stack, designed to handle product browsing, search, cart management, and checkout. Unlike my earlier projects, it integrates a payment gateway to simulate online transactions. I also applied cybersecurity best practices such as authentication, password hashing, and input validation, making it my most security-focused project so far.",
+    "category": "E-Commerce",
+    "technologies": ["React", "Express", "MongoDB"],
+    "links": {
+      "demo": "https://freshcart-client.vercel.app/",
+      "repository": "https://github.com/edoyang/freshcart"
+    }
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "frontend": [
+    "html",
+    "css",
+    "javascript",
+    "typescript",
+    "react",
+    "vue",
+    "redux",
+    "flutter",
+    "nextjs",
+    "unity"
+  ],
+  "backend": ["python", "php", "dotnet", "express", "mongodb", "mysql"],
+  "others": ["github", "wordpress"]
+}

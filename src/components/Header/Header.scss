@@ -1,0 +1,126 @@
+header {
+  $header-padding: 1.5rem;
+  $menu-padding: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: $header-padding;
+  left: 0;
+  padding: calc($header-padding / 4) $header-padding;
+  border: 1px solid var(--light-gray);
+  border-radius: 1.5rem;
+  background-color: white;
+  z-index: 10;
+  .logo {
+    font-weight: bold;
+    font-size: 1.25rem;
+    width: 25%;
+    cursor: pointer;
+  }
+
+  .menu {
+    display: flex;
+    gap: 10px;
+    width: 50%;
+    justify-content: center;
+
+    > * {
+      padding: $menu-padding;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        color: var(--blue);
+        border-radius: 4px;
+        background-color: var(--light-blue);
+      }
+    }
+  }
+
+  .social {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 25%;
+    justify-content: end;
+
+    a {
+      height: 20px;
+      aspect-ratio: 1/1;
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 0.5rem;
+    gap: 4px;
+
+    &:hover {
+      span {
+        background-color: var(--blue);
+      }
+    }
+
+    span {
+      display: block;
+      width: 25px;
+      height: 3px;
+      background-color: currentColor;
+      border-radius: 2px;
+      transition: all 0.3s ease;
+      transform-origin: center;
+    }
+
+    &.active {
+      span {
+        background-color: var(--blue);
+      }
+
+      span:nth-child(1) {
+        transform: translateY(7px) rotate(45deg);
+      }
+
+      span:nth-child(2) {
+        opacity: 0;
+      }
+
+      span:nth-child(3) {
+        transform: translateY(-7px) rotate(-45deg);
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .social,
+    .logo {
+      width: 50%;
+    }
+    .menu {
+      padding: $header-padding;
+      flex-direction: column;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 125%;
+      width: 100%;
+      border: 1px solid var(--light-gray);
+      border-radius: 8px;
+      background-color: white;
+      z-index: 10;
+      display: none;
+
+      &.show {
+        display: flex;
+      }
+    }
+
+    .hamburger {
+      display: flex;
+    }
+  }
+}

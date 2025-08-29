@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "company": {
+      "name": "EdgedVR",
+      "location": "Collaroy Plateau, Australia"
+    },
+    "role": "Software Engineer Intern",
+    "duration": "Mar 2025 - Aug 2025",
+    "achievements": [
+      "Built a 6-DOF VR prototype app with Unity, .NET, and MySQL in Azure environment.",
+      "Researched and integrated AI tools (TRELLIS, MeshyAI, Hunyuan, Flux-Panorama) for automated 3D/360° content generation.",
+      "Redesigned company website with modern stacks, reducing costs by ~95%.",
+      "Created 3D models in Blender/Unity and integrated legacy apps with APIs (ChatGPT, MeshyAI).",
+      "Developed ST4S cybersecurity documentation and presented at team & edu-fest events."
+    ]
+  },
+  {
+    "id": 2,
+    "company": {
+      "name": "Insight IT Australia",
+      "location": "Sydney, Australia"
+    },
+    "role": "IT Intern",
+    "duration": "Jun 2021 - Aug 2022",
+    "achievements": [
+      "Deployed secure enterprise software with Ninite to streamline installations.",
+      "Diagnosed and resolved system crashes (BSODs) to reduce downtime.",
+      "Upgraded hardware (RAM, SSDs, peripherals) to optimize workstation performance."
+    ]
+  }
+]
